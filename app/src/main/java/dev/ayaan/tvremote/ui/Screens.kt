@@ -455,7 +455,7 @@ private fun Header(
 private fun AppRow(onLaunchApp: (KnownApp) -> Unit) {
     // Insets differ per logo: each raster carries its own margin, and the tile
     // only looks even once that is cancelled out.
-    val tiles = listOf(
+    val tiles = listOf<Triple<KnownApp, Int, Int>>(
      //   Triple(KnownApp.YOUTUBE, R.drawable.ic_youtube, 10),
      //   Triple(KnownApp.HOTSTAR, R.drawable.ic_hotstar, 6),
      //   Triple(KnownApp.PRIME_VIDEO, R.drawable.ic_prime, 10),
