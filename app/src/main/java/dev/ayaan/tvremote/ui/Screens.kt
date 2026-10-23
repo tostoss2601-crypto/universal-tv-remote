@@ -456,10 +456,10 @@ private fun AppRow(onLaunchApp: (KnownApp) -> Unit) {
     // Insets differ per logo: each raster carries its own margin, and the tile
     // only looks even once that is cancelled out.
     val tiles = listOf(
-        Triple(KnownApp.YOUTUBE, R.drawable.ic_youtube, 10),
-        Triple(KnownApp.HOTSTAR, R.drawable.ic_hotstar, 6),
-        Triple(KnownApp.PRIME_VIDEO, R.drawable.ic_prime, 10),
-        Triple(KnownApp.NETFLIX, R.drawable.ic_netflix, 12)
+     //   Triple(KnownApp.YOUTUBE, R.drawable.ic_youtube, 10),
+     //   Triple(KnownApp.HOTSTAR, R.drawable.ic_hotstar, 6),
+     //   Triple(KnownApp.PRIME_VIDEO, R.drawable.ic_prime, 10),
+     //   Triple(KnownApp.NETFLIX, R.drawable.ic_netflix, 12)
     )
 
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
